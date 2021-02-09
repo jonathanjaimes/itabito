@@ -127,6 +127,12 @@ nav a {
 	width: 90%;
 	padding: 100px 5% 40px 5%;
 	margin: auto;
+	background-color: white;
+}
+
+.titleTar h3 {
+	color: #ff4e00;
+	font-size: 1.5em;
 }
 
 .titleTar h2 {
@@ -140,19 +146,20 @@ nav a {
 	width: 90%;
 	margin: auto;
 	padding: 0px 5% 0px 5%;
-	background-color: red;
+	background-color: white;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
 .tarjeta {
-	background-color: red;
+	/*background-color: red;*/
 	width: 300px;
 	height: auto;
 	display: flex;
 	flex-direction: column;
 	margin-top: 20px;
+	box-shadow: 1px 1px 5px #888888;
 }
 
 .tarjeta img {
@@ -163,33 +170,77 @@ nav a {
 .flecha {
 	width: 70px;
 	height: 70px;
-	background-color: green;
+	background-color: #ff4e00;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	color: white;
 }
 
 .abajoTar {
-	background-color: pink;
+	/*background-color: pink;*/
 	display: flex;
 	justify-content: space-between;
 }
 
 .textoAbajoTar {
-	width: 225px;
+	width: 80%;
 	display: flex;
 	flex-direction: column;
 	padding-top: 10px;
 	padding-left: 20px;
+	font-weight: bold;
 	/*background-color: red;*/
 }
 
 .textoAbajoTar img {
 	width: 150px;
 	margin-top: 5px;
+
 }
 
 
+/*-----------MODAL GALERIA 1------------------*/
+
+.modal-galeria1 {
+	display: none;
+}
+
+.modal-galeria1:target {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.8);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow-y: scroll;
+
+
+}
+
+.carta {
+	width: 80%;
+	background-color: red;
+	display: flex;
+
+}
+
+.textoCarta {
+	background-color: white;
+	padding: 40px;
+}
+
+.textoCarta h2 {
+	margin-top: 50px;
+} 
+
+.textoCarta p {
+	margin-top: 50px;
+	line-height: 2;
+}
 
 
 
@@ -246,8 +297,14 @@ nav a {
 	}
 
 	.about img {
-	top: 0px;
-	height: auto;
+		top: 0px;
+		height: auto;
+	}
+}
+
+@media screen and (max-width: 974px) {
+	.carta {
+		flex-direction: column;
 	}
 }
 
@@ -297,6 +354,17 @@ nav a {
 	.boton1 {
 		padding: 10px 15px;
 		margin-top: 20px;
+	}
+
+	.textoCarta h2 {
+		margin-top: 10px;
+		font-size: 1em;
+	} 
+
+	.textoCarta p {
+		margin-top: 10px;
+		line-height: 1.5;
+		font-size: 0.8em;
 	}
 }
 
