@@ -9,6 +9,8 @@ body {
 	background-color: #212121;
 }
 
+/*-----------------HEADER---------------------*/
+
 header {
 	width: 90%;
 	margin: auto;
@@ -48,6 +50,8 @@ header {
 	color: white;
 }
 
+/*-----------------NAV---------------------*/
+
 nav {
 	width: 100%;
 	
@@ -72,6 +76,8 @@ nav a {
 .logo {
 	width: 100px;
 }
+
+/*-----------------ABOUT---------------------*/
 
 .about {
 	width: 90%;
@@ -114,6 +120,76 @@ nav a {
 	text-align: right;
 	color: white;
 }
+
+/*-----------------GALERIA 1---------------------*/
+
+.titleTar {
+	width: 90%;
+	padding: 100px 5% 40px 5%;
+	margin: auto;
+}
+
+.titleTar h2 {
+	margin-top: 20px;
+	font-size: 2em;
+}
+
+
+
+.tar {
+	width: 90%;
+	margin: auto;
+	padding: 0px 5% 0px 5%;
+	background-color: red;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.tarjeta {
+	background-color: red;
+	width: 300px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
+}
+
+.tarjeta img {
+	width: 100%;
+
+}
+
+.flecha {
+	width: 70px;
+	height: 70px;
+	background-color: green;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.abajoTar {
+	background-color: pink;
+	display: flex;
+	justify-content: space-between;
+}
+
+.textoAbajoTar {
+	width: 225px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+	padding-left: 20px;
+	/*background-color: red;*/
+}
+
+.textoAbajoTar img {
+	width: 150px;
+	margin-top: 5px;
+}
+
+
 
 
 
@@ -172,7 +248,14 @@ nav a {
 	.about img {
 	top: 0px;
 	height: auto;
+	}
 }
+
+@media screen and (max-width: 756px) {
+	.tar {
+		justify-content: center;
+	}
+
 }
 
 @media screen and (max-width: 608px) {
