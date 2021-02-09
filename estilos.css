@@ -73,6 +73,48 @@ nav a {
 	width: 100px;
 }
 
+.about {
+	width: 90%;
+	background-color: white;
+	margin: auto;
+	padding: 100px 5% 0px 5%;
+	display: flex;
+}
+
+.about img {
+	position: relative;
+	top: -40px;
+	width: 100%;
+	height: 500px;
+}
+
+.acerca {
+	background-color: #2f2838;
+	padding: 110px 60px 60px 60px;
+}
+
+.acerca h3 {
+	font-size: 2em;
+	color: #ff4e00;
+	text-align: right;
+	overflow-wrap: anywhere;
+}
+
+.acerca h2 {
+	font-size: 3em;
+	text-align: right;
+	margin-top: 10px;
+	color: white;
+}
+
+.acerca p {
+	font-size: 1em;
+	line-height: 2;
+	margin-top: 20px;
+	text-align: right;
+	color: white;
+}
+
 
 
 /**************MEDIA***********************/
@@ -92,9 +134,13 @@ nav a {
 
 @media screen and (max-width: 1274px) {
 	.imgHeader {
-		width: 90%;
+		width: 100%;
 		margin-top: 50px;
 		margin-left: 0;
+	}
+
+	.about {
+		flex-direction: column;
 	}
 
 	header {
@@ -106,6 +152,27 @@ nav a {
 		margin-top: 100px;
 		width: 100%;
 	}
+
+	.acerca {
+		padding: 20px;
+	}
+
+	.acerca h3 {
+		font-size: 1em;
+	}
+
+	.acerca h2 {
+		font-size: 2em;
+	}
+
+	.acerca p {
+		font-size: 1em;
+	}
+
+	.about img {
+	top: 0px;
+	height: auto;
+}
 }
 
 @media screen and (max-width: 608px) {
