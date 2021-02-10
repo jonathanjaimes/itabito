@@ -374,6 +374,17 @@ nav a {
 }
 
 
+/*---------------TEXTO-CERRAR--------------------------*/
+
+.cerr {
+	font-weight: bold;
+
+}
+
+.cerr a {
+	text-decoration: none;
+}
+
 /**************MEDIA***********************/
 
 
