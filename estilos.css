@@ -154,19 +154,29 @@ nav a {
 }
 
 .tarjeta {
-	/*background-color: red;*/
+	background-color: red;
 	width: 300px;
-	height: auto;
+	
 	display: flex;
 	flex-direction: column;
+
 	margin-top: 20px;
 	box-shadow: 1px 1px 5px #888888;
 }
 
-.tarjeta img {
+.imagen {
 	width: 100%;
-
+	height: 260px;
+	background-color: green;
 }
+
+.imagen img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+
 
 .flecha {
 	width: 70px;
