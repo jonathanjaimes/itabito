@@ -32,6 +32,11 @@ header {
 	margin-top: 50px;
 }
 
+.texto h4 {
+	margin-top: 50px;
+	color: #ff4e00;
+}
+
 .texto h3 {
 	font-size: 2em;
 }
@@ -450,6 +455,10 @@ nav a {
 		margin-top: 20px;
 		width: 90%;
 	}
+
+	.texto h4 {
+	margin-top: 10px;
+	}
 }
 
 @media screen and (max-width: 974px) {
@@ -486,11 +495,16 @@ nav a {
 	}
 
 	.logo {
+		width: 200px;
 		margin: 20px 0;
 	}
 
 	.texto {
 		margin-top: 150px;
+	}
+
+	.texto h4 {
+	margin-top: 80px;
 	}
 }
 
@@ -499,7 +513,7 @@ nav a {
 
 
 	.texto h3 {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 
 	.texto h1 {
