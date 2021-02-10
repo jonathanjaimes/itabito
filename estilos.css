@@ -150,6 +150,7 @@ nav a {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+
 }
 
 .tarjeta {
@@ -241,8 +242,80 @@ nav a {
 	margin-top: 50px;
 	line-height: 2;
 }
+ 
+ /*---------------------DESCUBRE----------------*/
+
+ .descubre {
+	width: 90%;
+	padding: 100px 5% 40px 5%;
+	margin: auto;
+	background-color: white;
+}
+
+.descubre h3 {
+	color: #ff4e00;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.descubre h2 {
+	margin-top: 20px;
+	font-size: 2em;
+	text-align: center;
+}
+
+.menu {
+	width: 90%;
+	padding: 0px 5% 50px 5%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: white;
+}
+
+.menu h3 {
+	color: #ff4e00;
+}
+
+.menuGrupo1 {
+	width: 600px;
+	height: auto;
+	/*background-color: red;*/
+	margin-top: 10px;
+}
+
+.menuGrupo1Basic {
+	/*background-color: green;*/
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+	font-size: 1.1em;
+}
+
+.menuGrupo1Basic2 {
+	margin-top: 5px;
+}
 
 
+.menuGrupo1-a {
+	width: 600px;
+	height: auto;
+	/*background-color: red;*/
+	margin-top: 60px;
+}
+
+.menuGrupo1Basic-a {
+	/*background-color: green;*/
+	display: flex;
+	justify-content: space-between;
+
+	font-size: 1.1em;
+}
+
+.menuGrupo1Basic2-a {
+	margin-top: 5px;
+}
 
 /**************MEDIA***********************/
 
@@ -254,6 +327,22 @@ nav a {
 
 	.texto h1 {
 		font-size: 3em;
+		margin-top: 20px;
+	}
+}
+
+@media screen and (max-width: 1516px) {
+	.menu {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 1490px) {
+	.menuGrupo1 {
+		margin-top: 20px;
+	}
+
+	.menuGrupo1-a {
 		margin-top: 20px;
 	}
 }
