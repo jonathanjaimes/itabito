@@ -154,7 +154,7 @@ nav a {
 }
 
 .tarjeta {
-	background-color: red;
+	/*background-color: red;*/
 	width: 300px;
 	
 	display: flex;
@@ -167,7 +167,7 @@ nav a {
 .imagen {
 	width: 100%;
 	height: 260px;
-	background-color: green;
+	/*background-color: green;*/
 }
 
 .imagen img {
@@ -234,9 +234,13 @@ nav a {
 
 .carta {
 	width: 80%;
-	background-color: red;
+	/*background-color: red;*/
 	display: flex;
 
+}
+
+.carta img {
+	width: 50%;
 }
 
 .textoCarta {
@@ -294,6 +298,7 @@ nav a {
 	/*background-color: red;*/
 	margin-top: 10px;
 	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .menuGrupo1Basic {
@@ -315,6 +320,7 @@ nav a {
 	/*background-color: red;*/
 	margin-top: 60px;
 	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .menuGrupo1Basic-a {
@@ -349,6 +355,11 @@ nav a {
 	flex-direction: column;
 	align-items: center;
 
+}
+
+.tarjetaSomos img {
+	width: 120px;
+	border-radius: 50%;
 }
 
 .tarjetaSomos p {
@@ -435,6 +446,10 @@ nav a {
 @media screen and (max-width: 974px) {
 	.carta {
 		flex-direction: column;
+	}
+
+	.carta img {
+		width: 100%;
 	}
 }
 
