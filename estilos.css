@@ -348,7 +348,7 @@ nav a {
 }
 
 .tarjetaSomos {
-	width: 300px;
+	width: 500px;
 	padding: 40px;
 	background-color: white;
 	display: flex;
@@ -441,6 +441,15 @@ nav a {
 		top: 0px;
 		height: auto;
 	}
+
+	.somos {
+		flex-direction: column;
+	}
+
+	.tarjetaSomos {
+		margin-top: 20px;
+		width: 90%;
+	}
 }
 
 @media screen and (max-width: 974px) {
@@ -458,14 +467,7 @@ nav a {
 		justify-content: center;
 	}
 
-	.somos {
-		flex-direction: column;
-	}
-
-	.tarjetaSomos {
-		margin-top: 20px;
-		width: 90%;
-	}
+	
 
 }
 
