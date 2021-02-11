@@ -11,6 +11,27 @@ body {
 
 /*-----------------HEADER---------------------*/
 
+
+.iconos {
+	background-color: white;
+	width: 90%;
+	padding: 0px 5% 0px 5%;
+	margin: auto;
+}
+
+#btn-menu {
+	display: none;
+}
+
+.icon-menu {
+	font-size: 2em;
+}
+
+.icon-menu {
+	display: none;
+}
+
+
 header {
 	width: 90%;
 	margin: auto;
@@ -502,8 +523,9 @@ nav a {
 	nav {
 		flex-direction: column;
 		padding: 20px 5% 20px 5%;
-
 	}
+
+	
 
 	.logo {
 		width: 200px;
@@ -560,7 +582,43 @@ nav a {
 	}
 
 	.texto {
-		margin-top: 250px;
+		
+	}
+
+	
+
+	nav {
+		flex-direction: column-reverse;
+
+		
+	}
+
+	.iconos {
+		background-color: #ff4e00;
+		padding: 10px 5% 10px 5%;
+	}
+
+	.icon-menu {
+		display: block;
+		cursor: pointer;
+
+	}
+
+	.menuNav {
+		position: absolute;
+		background-color: white;
+		width: 100%;
+		transition: all 500ms ease;
+		margin-left: -300%;
+		padding-top: 20px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+	}
+
+	#btn-menu:checked ~ .menuNav {
+		margin: 0;
 	}
 }
 
