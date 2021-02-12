@@ -9,6 +9,10 @@ body {
 	background-color: #212121;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 /*-----------------HEADER---------------------*/
 
 
