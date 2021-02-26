@@ -291,6 +291,37 @@ nav a {
 	line-height: 2;
 }
  
+/*---------------------MENU IMG-------------------*/
+
+.menuImg {
+	width: 100%;
+	background-color: white;
+	padding: 20px 0% 20px 0%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.menuImg img {
+	width: 30%;
+	min-width: 250px;
+	margin: 10px 0px;
+}
+
+
+/*--------------------MODAL-MENU-------------------*/
+
+.modalMenu:target {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+
  /*---------------------DESCUBRE----------------*/
 
  .descubre {
@@ -647,6 +678,15 @@ nav a {
 	#btn-menu:checked ~ .menuNav {
 		margin: 0;
 	}
+}
+
+@media screen and (max-width: 314px) {
+
+	.menuImg img {
+	min-width: 100%;
+	
+	}
+
 }
 
 
