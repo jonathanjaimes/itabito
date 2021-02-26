@@ -273,7 +273,8 @@ nav a {
 }
 
 .carta img {
-	width: 50%;
+	width: 100%;
+	min-width: 400px;
 }
 
 .textoCarta {
