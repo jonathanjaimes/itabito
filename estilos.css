@@ -52,6 +52,7 @@ header {
 	margin-left: 50px;
 }
 
+
 .texto {
 	/*background-color: green;*/
 	margin-top: 50px;
@@ -120,7 +121,9 @@ nav a {
 .about img {
 	position: relative;
 	top: -40px;
-	width: 100%;
+	
+	min-width: 700px;
+	
 	height: 500px;
 }
 
@@ -341,6 +344,9 @@ nav a {
 
 .menuGrupo1Basic2 {
 	margin-top: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 
@@ -363,6 +369,9 @@ nav a {
 
 .menuGrupo1Basic2-a {
 	margin-top: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 /*----------------SOMOS------------*/
@@ -505,6 +514,15 @@ nav a {
 	.carta img {
 		width: 100%;
 	}
+
+	
+}
+
+@media screen and (max-width: 874px){
+
+	.about img {
+		min-width: 100%;
+	}
 }
 
 @media screen and (max-width: 756px) {
@@ -522,6 +540,7 @@ nav a {
 		padding: 20px 5% 20px 5%;
 	}
 }
+
 
 @media screen and (max-width: 576px) {
 	nav {
